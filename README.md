@@ -21,4 +21,5 @@ Fullfill following requirements to successfully install the software.
 
 First, clone this Repo. Run the following commands to install the software on the system (all the dependencies will be installed ):
 • python run install.py
+
 • python plotExt.py
