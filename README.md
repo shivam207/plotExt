@@ -1,5 +1,5 @@
 # plotExt
-Convert Plots in pdf to Tables
+Convert Plots in pdf to Tablular data.
 
 Full Documentation is available in the /doc folder.
 
