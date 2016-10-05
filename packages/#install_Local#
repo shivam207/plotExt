@@ -1,0 +1,106 @@
+#!/bin/bash
+# My first script
+
+sudo apt-get update
+sudo apt-get install python-dev
+sudo apt-get -yes install python-dev
+sudo apt-get update
+sudo apt-get -yes install python-dev
+sudo apt-get -yes install g++
+sudo apt-get install -y qt4-default
+sudo apt-get install cython
+
+tar -zxvf setuptools-20.3.tar.gz
+cd setuptools-20.3
+sudo python -W ignore setup.py install 
+#installed setuptools-20.3
+cd ..
+#changing to packages/
+
+tar -zxvf beautifulsoup4-4.2.1.tar.gz
+cd beautifulsoup4-4.2.1
+sudo python -W ignore setup.py install 
+# installed bs4
+cd ..
+#changing to packages/
+
+tar -zxvf Imaging-1.1.7.tar.gz
+cd Imaging-1.1.7
+sudo python -W ignore setup.py install  
+# installed Imaging-1.1.7
+cd ..
+#changing to packages/
+
+tar -zxvf QDarkStyle-2.1.tar.gz
+cd QDarkStyle-2.1
+sudo python -W ignore setup.py install  
+# installed QDarkStyle-2.1
+cd ..
+#changing to packages/
+
+tar -zxvf matplotlib-1.3.1.tar.gz
+cd matplotlib-1.3.1
+sudo python -W ignore setup.py install 
+# installed matplotlib-1.3.1
+cd ..
+#changing to packages/
+
+unzip -o numpy-1.8.2.zip
+cd numpy-1.8.2
+sudo python -W ignore setup.py install 
+# installed numpy-1.8.2
+cd ..
+#changing to packages/
+
+unzip -o Pillow-2.3.0.zip
+cd Pillow-2.3.0
+sudo python -W ignore setup.py install
+# installed Pillow-2.3.0
+cd ..
+#changing to packages/
+
+tar -zxvf pyPdf-1.13.tar.gz
+cd pyPdf-1.13
+sudo python -W ignore setup.py install
+# installed pyPdf-1.13
+cd ..
+#changing to packages/
+
+tar -zxvf reportlab-3.0.tar.gz
+cd reportlab-3.0
+sudo python -W ignore setup.py install 
+# installed reportlab-3.0
+cd ..
+#changing to packages/
+
+tar -zxvf scikit-learn-0.14.1.tar.gz
+cd scikit-learn-0.14.1
+sudo python -W ignore setup.py install 
+# installed scikit-learn-0.14.1
+cd ..
+#changing to packages/
+
+sudo apt-get update
+
+tar -zxvf wand_0.3.5.orig.tar.gz
+cd wand-0.3.5
+sudo python -W ignore setup.py install
+# installed wand-0.3.5.orig
+cd ..
+#changing to packages/
+
+sudo apt-get install python-sklearn
+sudo apt-get install imagemagick
+
+
+sudo apt-get update
+sudo apt-get install -y python-PythonMagick
+sudo apt-get install -y tesseract-ocr
+sudo apt-get install -y python-opencv
+
+
+
+
+
+
+
